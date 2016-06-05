@@ -13,22 +13,38 @@
 
    <div class="container">
 
-      <div class="card-panel flow-text ">
+      <div class="card-panel flow-text header">
          <div class="col s12 m2 l2 center-align hide-on-med-and-up" style="padding-top: 2vh">
-            <img class="responsive-img" src="cp-logo-96.png">
+            <img width="96vh"
+                src="cp-logo-light-hires.png">
          </div>
-         <div class="row header">
+         <div class="row">
             <div class="col s12 m2 l2 right-align hide-on-small-only">
                <a href="http://changingplaces.org.au/">
-                  <img class="responsive-img" src="cp-logo-128.png">
+                  <img width="128vh"
+                        src="cp-logo-light-hires.png">
                </a>
             </div>
             <div class="col s12 m10 l10">
                <h4>Can't find a Changing Place?</h4>
-               <div class="small-text">Let us know where you would like to see a Changing Place toilet.</div>
+               <div class="header-subtitle">Let us know where you would like to see a Changing Place toilet.</div>
             </div>
          </div>
       </div>
+
+
+
+      <ul class="collapsible" data-collapsible="accordion">
+         <li>
+            <div class="collapsible-header"><i class="material-icons">info</i>What is this about?</div>
+            <div class="collapsible-body">
+               <p><a href="http://changingplaces.org.au/about/">Changing Places</a> is an organisation that aims to help people who require specialised toilet facilities. These are persons with complex and multiple disabilities who require unique features above that of a typical disabled toilet.<br><br>
+
+               This site allows our users, their families and their carers provide suggestions for new locations to place more of such facilities. We already have locations spread out across Victoria, and are looking to add 15 new ones.</p>
+            </div>
+         </li>
+      </ul>
+
 
       <!-- <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
          <a class="btn-floating btn-large red" data-action="quack">
@@ -50,6 +66,9 @@
       </div>
 
 
+
+
+
       <div class="card-panel grey lighten-4 flow-text hoverable">
          <div class="row">
             <p class="col s12 text-lighten-1" >
@@ -58,7 +77,7 @@
             <form class="col s12">
                <div class="row">
                   <div class="input-field col s12">
-                     <textarea placeholder="Enter any comments here" id="comments" class="materialize-textarea"></textarea>
+                     <textarea placeholder="E.g., Our support group always has meetings at the state library..." id="comments" class="materialize-textarea"></textarea>
                      <label for="comments">Comments</label>
                   </div>
                </div>
@@ -87,7 +106,7 @@
       </div>
 
       <!-- <button>Click Me</button> -->
-      <div class="card-panel grey lighten-4 flow-text small-text right-align">
+      <div class="card-panel grey lighten-4 flow-text footer-text right-align">
          <p>Sanity check counter: {{counter}} times.<br>
             Program Messages: {{message}}
          </p>
