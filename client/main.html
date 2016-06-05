@@ -46,27 +46,24 @@
       </ul>
 
 
-      <!-- <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
-         <a class="btn-floating btn-large red" data-action="quack">
-            <i class="large material-icons">my_location</i>
-         </a>
-      </div> -->
+      <div class="card-panel">
 
-      <div class="card-panel flow-text">
-         <div class="input-field col s12 m6 l6">
-            <input id="search" type="text" class="validate" placeholder="Search here... 3122, Hawthorn, Library.">
+         <!-- <div class="input-field"> -->
+            <input id="search" placeholder="3022, Hawthorn, Library..." type="text" class="validate">
             <!-- <label for="search">Search</label> -->
-            <br>
-         </div>
+         <!-- </div> -->
+
          <div id='map' ></div>
-         <div class="center-align">
-            <br>
-            <a class="waves-effect waves-light btn-large blue darken-2" data-action="quack"><i class="material-icons right">my_location</i>Current Location</a>
+
+         <div class="center-align" style="margin-top:2vh">
+            <a class="waves-effect waves-light btn blue darken-2"
+               data-action="quack">
+               <i class="material-icons right">my_location</i>
+               My Location
+            </a>
          </div>
+
       </div>
-
-
-
 
 
       <div class="card-panel grey lighten-4 flow-text hoverable">
@@ -105,8 +102,13 @@
          </div>
       </div>
 
-      <!-- <button>Click Me</button> -->
-      <div class="card-panel grey lighten-4 flow-text footer-text right-align">
+      <div class="right-align" style="padding-top:1vh">
+         <a class="waves-effect waves-light btn-large blue darken-2" data-action="submit-suggest"><i class="material-icons right">send</i>Submit Suggestion</a>
+      </div>
+
+      <br>
+
+      <div class="card-panel grey lighten-4 flow-text footer-text right-align" style="margin-top:40vh !important">
          <p>Sanity check counter: {{counter}} times.<br>
             Program Messages: {{message}}
          </p>
